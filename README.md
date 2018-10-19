@@ -1,2 +1,9 @@
-# Hologram-Game
-Indie game for school and maybe be public 
+# HoloScape
+ 
+**Controlos**
+
+ *RMB to move player.
+ *LMB to rotate camera.
+ *Scroll Wheel to change camera distance.
+ *Shift to disable or enable camera controls.
+ 
