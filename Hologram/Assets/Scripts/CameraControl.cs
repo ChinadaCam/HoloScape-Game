@@ -24,11 +24,7 @@ public class CameraControl : MonoBehaviour {
         this._XForm_Parent = this.transform.parent;
     }
 
-    void Update()
-    {
-      
-    }
-
+  
 
     void LateUpdate()
     {
