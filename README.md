@@ -10,5 +10,7 @@
  
  Shift to disable or enable camera controls.
  
+ F9 to show FPS
+ 
  ESC to pause.
  
