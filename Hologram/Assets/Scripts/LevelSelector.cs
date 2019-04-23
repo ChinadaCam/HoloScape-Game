@@ -4,6 +4,9 @@ using UnityEngine.SceneManagement;
 
 public class LevelSelector : MonoBehaviour {
 
+
+    // n ta a ser usado
+
     public LoadSceneMode load;
 
     public void Select(string levelName)

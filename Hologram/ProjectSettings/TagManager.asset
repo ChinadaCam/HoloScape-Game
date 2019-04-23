@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Music
   layers:
   - Default
   - TransparentFX
@@ -16,10 +17,10 @@ TagManager:
   - PostProcessing
   - Ground
   - Wall
-  - 
-  - 
-  - 
-  - 
+  - Button
+  - Env
+  - YuME_TileMap
+  - grabit
   - 
   - 
   - 
