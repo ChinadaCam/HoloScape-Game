@@ -8,9 +8,8 @@ public class LoadSceneOnTrigger : MonoBehaviour {
     [SerializeField] public string LevelToLoad;
 
 
-     
 
-     void OnTriggerStay(Collider other)
+    void OnTriggerStay(Collider other)
     {
         Debug.LogError("detected");
         if (other.CompareTag("Player"))

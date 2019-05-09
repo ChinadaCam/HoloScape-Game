@@ -13,7 +13,7 @@ public class ButtonDetection : MonoBehaviour {
     public GameObject ChangeLvlTrigger;   //change lvl
     [Space]
     [Header("Animation")]
-   public Animator Anim;
+   public Animator Anim; //button animation
 
     private void Start()
     {
@@ -24,21 +24,28 @@ public class ButtonDetection : MonoBehaviour {
     }
 
 
-    void OnTriggerStay(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("pressed");
+           
             UI.SetActive(true);
             
             UI2.SetActive(true);
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                ChangeLvlTrigger.SetActive(true);
-                Anim.Play("ButtonPress");
-                Debug.Log("pressed");
-            }
             
+            
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            //se tiver a key consegue usar senao mostra UI que precisa
+            Debug.Log("pressed");
+            ChangeLvlTrigger.SetActive(true);
+            Anim.Play("ButtonPress");
+          
         }
     }
 
