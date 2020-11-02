@@ -11,6 +11,7 @@ public class ButtonDetection : MonoBehaviour {
 
     [Header ("Level")]
     public GameObject ChangeLvlTrigger;   //change lvl
+    public GameObject Beam;   
     [Space]
     [Header("Animation")]
    public Animator Anim; //button animation
@@ -44,6 +45,7 @@ public class ButtonDetection : MonoBehaviour {
             //se tiver a key consegue usar senao mostra UI que precisa
             Debug.Log("pressed");
             ChangeLvlTrigger.SetActive(true);
+            Beam.SetActive(true);
             Anim.Play("ButtonPress");
           
         }
