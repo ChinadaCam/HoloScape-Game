@@ -1,8 +1,13 @@
 # HoloScape
  
+ ##Itch.io
+ 
+ [Store page](https://chinadacam.itch.io/holoscape)
+ 
+ 
  Unity Version: 2018.4.28f1
  
- Story:
+## Story
  
  You are Holo Han a hologram stuck in his holographic world. 
  
