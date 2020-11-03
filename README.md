@@ -1,6 +1,6 @@
 # HoloScape
  
- ##Itch.io
+[HS Page](https://chinadacam.github.io/HoloScape-Game/)
  
  [Store page](https://chinadacam.itch.io/holoscape)
  
