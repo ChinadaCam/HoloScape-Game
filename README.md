@@ -1,7 +1,17 @@
 # HoloScape
  
+[HS Page](https://chinadacam.github.io/HoloScape-Game/)
+ 
+ [Store page](https://chinadacam.itch.io/holoscape)
+ 
+ 
  Unity Version: 2018.4.28f1
  
+## Story
+ 
+ You are Holo Han a hologram stuck in his holographic world. 
+ 
+ Trying to escape is dangerous!! You will encounter many obstacles!! Such as enemies, puzzles,bosses!
  
  
  
