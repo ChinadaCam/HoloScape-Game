@@ -39,7 +39,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 1.44
+    value: 0.71
   color:
     overrideState: 1
     value: {r: 0, g: 0, b: 0.18039216, a: 1}
@@ -57,7 +57,7 @@ MonoBehaviour:
     value: -12
   thicknessModifier:
     overrideState: 1
-    value: 1
+    value: 4.83
   directLightingStrength:
     overrideState: 0
     value: 0
@@ -129,16 +129,16 @@ MonoBehaviour:
     value: 1
   filtering:
     overrideState: 1
-    value: {x: 46.804348, y: 66.239136}
+    value: {x: 18.18182, y: 37.6166}
   minLuminance:
     overrideState: 1
-    value: 0.37
+    value: -1.1
   maxLuminance:
     overrideState: 1
-    value: 2.57
+    value: 5.2
   keyValue:
-    overrideState: 0
-    value: 1
+    overrideState: 1
+    value: 0.51
   eyeAdaptation:
     overrideState: 1
     value: 0

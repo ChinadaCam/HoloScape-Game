@@ -1,4 +1,8 @@
-﻿using System;
+﻿using System.Threading;
+using System.Runtime.CompilerServices;
+//using System.Reflection.PortableExecutable;
+using System.Diagnostics;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,14 +15,19 @@ public class PlayerLook : MonoBehaviour
     [SerializeField] private float mouseSensivity;
 
     [SerializeField] private Transform playerBody;
- 
 
+    private float lifeTimer;
+    public float lifeTime = 5f;
     private float xAxisClamp; // limiting the position to an area (-90 to 90)
+
+    public Camera playerCamera;
+   
 
     private void Awake()
     {
         LockCursor();
         xAxisClamp = 0.0f;
+        
     }
 
     //lock cursor in middle of the screen
@@ -32,7 +41,12 @@ public class PlayerLook : MonoBehaviour
 
     private void Update()
     {
+        
+       
+
         CameraRotation();
+
+        //check if player alreadt hit Esc
         if (Input.GetKeyDown(KeyCode.Escape) && Cursor.lockState == CursorLockMode.Locked)
         {
             Cursor.lockState = CursorLockMode.None;
@@ -44,8 +58,9 @@ public class PlayerLook : MonoBehaviour
 
 
         }
-
     }
+
+     
 
     private void CameraRotation()
     {
